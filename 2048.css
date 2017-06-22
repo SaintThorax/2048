@@ -23,12 +23,14 @@ body{
     overflow: hidden;
 } 
 
-.two, .four {
+.p2, .p4, .p8, .p16, .p32, .p64, .p128 {
     position: absolute;
     display: inline-block;
-    height: 100%;
-    width: 100%;
+    text-align: center;
+    /*height: 130px;*/
+    /*width: 130px;*/
     color: #776e65; 
     font: bold 86px 'Poppins', sans-serif;
-    padding-left: 40px;
+    /*padding-left: 40px;*/
+    font-size: 0px;
 }
